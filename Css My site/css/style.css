@@ -1,0 +1,131 @@
+/* Designign body of the html */
+body{
+    text-align: center;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    line-height: 2;
+}
+/* Designing top container */
+.top-container{
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+    /* Designing clouds of top container */
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+            /* Designing headings and span*/
+h1{
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 80px;
+    margin: 50 0 0 0px;
+}
+h2{
+    color: #66BFBF;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+h3{
+    color: #66BFBF;
+    font-family: 'Lato', sans-serif;
+}
+span{
+    text-decoration: underline;
+}
+
+/* Designing middle container */
+.middle-container{
+   margin-top: 60px;
+}
+            /* Designing profile of middle container */
+.profile{
+    width: 50%;
+    margin: auto;
+}
+.profile p{
+    margin: 50px;
+}
+.profile img{
+    width: 200px;
+    height: 200px;
+}
+                    /* Designing hr for rest of the website*/
+.hr{
+    border-style: dotted;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    width: 8%;
+    border-top-width: 15px;
+    margin: 30px auto 50px auto;
+    color: #c2d1d1;
+}                    
+
+                /* Designing skill of middle container */
+.skills{
+    width: 50%;
+    margin: 40px auto 60px auto;
+    text-align: justify;
+}
+.skills h2{
+    margin-bottom: 0 auto 40px auto;
+}
+
+                    /* Designing images under skills */
+.computer-img{
+    width: 25%;
+    border-radius: 30px;
+    float: left;
+    margin-right: 30px;
+}
+.fried-chicken-img{
+    background-color: #334691ad;
+    width: 25%;
+    border-radius: 30px;
+    float: right;
+    margin-left: 30px;
+}
+
+                /* Designing contact me  */
+.contact-me{
+    width: 50%;
+    margin: 20px auto 80px auto;
+}
+                            /* Designing button of contact me */
+.btn{
+    background-color: #3fd0d6;
+    padding: 7px;
+    border-radius: 6px;
+    color: white;
+}
+
+                            /* Designing hyperlinks */
+a{
+    text-decoration: none;
+    color: #11999E;
+}
+
+/* Designing bottom container */
+.bottom-container{
+    background-color: #3fd0d6;
+    padding: 1px;
+    line-height: 3;
+}
+.bottom-container a{
+    margin: 15px;
+}
+.bottom-container p{
+    color: white;
+}
